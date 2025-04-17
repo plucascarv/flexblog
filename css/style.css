@@ -1,0 +1,83 @@
+/* Resetando estilos padrão e definindo básicos */
+body, h1, h2, p, ul, li, a {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Nunito", "Arial", sans-serif;
+  color: #222;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Pré-Info - Cabeçalho */
+.preinfo-bg {
+  background: #122ab2;
+}
+
+.preinfo {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.preinfo p, a {
+  margin: 0px 10px 10px 10px;
+  color: white;
+}
+
+/* Info - Header Menu */
+.info-bg {
+  background: #2c70ff;
+  color: white;
+}
+
+.info {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0px;
+}
+
+.menu-logo a {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin: 0px 10px;
+}
+
+.info-menu-lista {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.info-menu a {
+  font-size: 1.25rem;
+  display: block;
+  padding: 10px;
+}
+
+.info-menu a:hover {
+  color: #122ab2;
+}
